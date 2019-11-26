@@ -4,7 +4,7 @@
 - API Gateway with Guzzle
 - 3 service : service_smk, service_mapel, service_user
 - import DB first
-- Configure the env and add on last line this code :
+- Configure the env and add on last line this code on mygateway env file :
 ```
 SERVICE_SMK=http://localhost:8001/api/smk/
 SERVICE_MAPEL=http://localhost:8002/api/mapel/
